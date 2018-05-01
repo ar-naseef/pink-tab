@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "pink tab",
+    "version": "1.0",
+  
+    "description": "checks if the tab is already open and alerts if open",
+  
+    "icons": {
+      "48": "icons/icon3.ico"
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "<all_urls>"
+    ],
+
+    "background": {
+        "scripts": ["runcode.js"]
+    }
+  
+  }
